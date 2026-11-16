@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M13 2 4 14h6l-1 8 9-12h-6z' fill='currentColor'/></svg>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produk Admin — Nordy Tech</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css?v=26">
+  <link rel="stylesheet" href="../css/globals.css?v=26">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+  <link rel="stylesheet" href="../css/components.css?v=28">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <div class="admin-shell">
+    <aside class="admin-side" id="adminSide" aria-label="Navigasi admin"></aside>
+    <main class="admin-main" id="adminMain">
+      <header class="admin-topbar">
+        <div>
+          <span class="eyebrow">Produk</span>
+          <h1>Kelola Produk</h1>
+        </div>
+        <button class="button" id="addProductBtn">+ Tambah Produk</button>
+      </header>
+      <div id="productList"></div>
+    </main>
+  </div>
+
+  <!-- Modal -->
+  <dialog class="modal" id="productModal" aria-labelledby="modalTitle">
+    <div class="modal-content" style="max-width:720px">
+      <header class="modal-header">
+        <h2 id="modalTitle">Tambah Produk</h2>
+        <button class="button button--ghost" id="cancelBtn">✕</button>
+      </header>
+      <form id="productForm" class="stack stack-4">
+        <div class="field">
+          <label>Nama Produk</label>
+          <input type="text" id="pname" class="input" required>
+        </div>
+        <div class="field">
+          <label>Slug</label>
+          <input type="text" id="pslug" class="input" required>
+        </div>
+        <div class="field">
+          <label>Deskripsi</label>
+          <textarea id="pdesc" class="textarea" rows="4" required></textarea>
+        </div>
+        <div class="field">
+          <label>Spesifikasi (format: Kunci: Nilai, satu per baris)</label>
+          <textarea id="pspecs" class="textarea" rows="4"></textarea>
+        </div>
+        <div class="field">
+          <label>Status</label>
+          <select id="pactive" class="select">
+            <option value="true">Aktif</option>
+            <option value="false">Nonaktif</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Varian</label>
+          <div id="variantRows" class="stack stack-2"></div>
+          <button type="button" class="button button--secondary button--sm mt-2" id="addVariantBtn">+ Tambah Varian</button>
+        </div>
+        <div class="field">
+          <label>Foto Produk</label>
+          <input type="file" id="pimageFile" accept="image/*">
+          <div id="imageList" class="mt-2"></div>
+        </div>
+        <div class="row gap-2" style="justify-content:flex-end">
+          <button type="button" class="button button--secondary" id="cancelBtn2">Batal</button>
+          <button type="submit" class="button" id="saveProductBtn">Simpan</button>
+        </div>
+      </form>
+    </div>
+  </dialog>
+
+  <script src="../js/config.js?v=26"></script>
+  <script src="../js/utils.js?v=26"></script>
+  <script src="../js/supabase-client.js?v=26"></script>
+  <script src="../js/admin-guard.js?v=26"></script>
+  <script src="admin-produk.js?v=26"></script>
+</body>
+</html>

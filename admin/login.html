@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M13 2 4 14h6l-1 8 9-12h-6z' fill='currentColor'/></svg>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Admin — Nordy Tech</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css?v=26">
+  <link rel="stylesheet" href="../css/globals.css?v=26">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+  <link rel="stylesheet" href="../css/components.css?v=28">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <div class="admin-login">
+    <div class="card" style="max-width:400px;margin:80px auto">
+      <h1 style="text-align:center">Nordy Admin</h1>
+      <p class="muted" style="text-align:center">Masuk untuk mengelola toko</p>
+      <form id="loginForm" class="stack stack-4 mt-6">
+        <div class="field">
+          <label>Email</label>
+          <input type="email" id="email" class="input" required>
+        </div>
+        <div class="field">
+          <label>Password</label>
+          <input type="password" id="password" class="input" required>
+        </div>
+        <button type="submit" class="button button--block">Masuk</button>
+      </form>
+      <div id="msg"></div>
+    </div>
+  </div>
+  <script src="../js/config.js?v=26"></script>
+  <script src="../js/utils.js?v=26"></script>
+  <script src="../js/supabase-client.js?v=26"></script>
+  <script src="../js/admin-login.js?v=26"></script>
+</body>
+</html>

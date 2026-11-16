@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Ilustrasi Keychain RJ45 varian dengan kabel jaringan">
+  <rect width="400" height="300" fill="#3998F4"/>
+  <g opacity="0.16" fill="#FFF7ED">
+    <rect x="34" y="40" width="18" height="18" rx="4"/>
+    <rect x="348" y="238" width="22" height="22" rx="4"/>
+    <circle cx="360" cy="52" r="14"/>
+    <circle cx="44" cy="252" r="16"/>
+  </g>
+
+  <g>
+    <path d="M92 96 C160 70, 230 190, 300 130" fill="none" stroke="#151515" stroke-width="22" stroke-linecap="round" transform="translate(6 7)"/>
+    <path d="M92 96 C160 70, 230 190, 300 130" fill="none" stroke="#FFD629" stroke-width="14" stroke-linecap="round"/>
+    <path d="M112 90 C170 70, 225 170, 286 128" fill="none" stroke="#FF7569" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+
+    <g fill="#151515" transform="translate(6 7)">
+      <circle cx="86" cy="94" r="30" fill="none" stroke="#151515" stroke-width="11"/>
+      <rect x="238" y="118" width="120" height="96" rx="19"/>
+    </g>
+
+    <circle cx="86" cy="94" r="30" fill="none" stroke="#C7CBD4" stroke-width="11"/>
+    <circle cx="86" cy="94" r="30" fill="none" stroke="#E9EBF1" stroke-width="3.5" stroke-dasharray="9 9"/>
+
+    <rect x="238" y="118" width="120" height="96" rx="19" fill="#F5F5F5" stroke="#151515" stroke-width="5"/>
+    <rect x="238" y="155" width="120" height="59" rx="0" fill="#151515"/>
+    <rect x="238" y="150" width="120" height="9" fill="#151515"/>
+    <g fill="#151515">
+      <rect x="250" y="122" width="7.5" height="19" rx="2"/>
+      <rect x="261" y="122" width="7.5" height="19" rx="2"/>
+      <rect x="272" y="122" width="7.5" height="19" rx="2"/>
+      <rect x="283" y="122" width="7.5" height="19" rx="2"/>
+      <rect x="294" y="122" width="7.5" height="19" rx="2"/>
+      <rect x="305" y="122" width="7.5" height="19" rx="2"/>
+      <rect x="316" y="122" width="7.5" height="19" rx="2"/>
+      <rect x="327" y="122" width="7.5" height="19" rx="2"/>
+    </g>
+    <g fill="#39D353">
+      <rect x="251.2" y="134" width="5" height="5"/>
+      <rect x="262.2" y="134" width="5" height="5"/>
+      <rect x="273.2" y="134" width="5" height="5"/>
+      <rect x="284.2" y="134" width="5" height="5"/>
+      <rect x="295.2" y="134" width="5" height="5"/>
+      <rect x="306.2" y="134" width="5" height="5"/>
+      <rect x="317.2" y="134" width="5" height="5"/>
+      <rect x="328.2" y="134" width="5" height="5"/>
+    </g>
+    <rect x="248" y="126" width="38" height="15" rx="4" fill="#FFFFFF" stroke="#151515" stroke-width="3"/>
+    <path d="M262 130 h-7 M259 133.5 h7 M264 133.5 v-3.5" stroke="#3998F4" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M338 188 l12 12 M345 185 l12 11" stroke="#39D353" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

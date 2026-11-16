@@ -1,0 +1,16 @@
+# Nordy Tech - Robots.txt
+# Generated for static hosting (Vercel / Netlify / Cloudflare Pages)
+
+User-agent: *
+Allow: /
+
+# Crawl budget: fokus ke katalog & halaman penting
+Crawl-delay: 1
+
+Sitemap: https://nordytech.example/sitemap.xml
+
+# Block admin area
+Disallow: /admin/
+
+# Block checkout internal endpoints
+Disallow: /checkout.html

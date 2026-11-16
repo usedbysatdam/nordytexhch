@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Ilustrasi Jepit Rambut PCB dengan papan sirkuit hijau">
+  <rect width="400" height="300" fill="#FF5D8F"/>
+  <g opacity="0.16" fill="#FFF7ED">
+    <circle cx="46" cy="52" r="18"/>
+    <circle cx="356" cy="250" r="24"/>
+    <path d="M352 40l5 15 15 4-15 4-5 15-5-15-15-4 15-4z"/>
+    <path d="M64 246l4 12 12 3-12 3-4 12-4-12-12-3 12-3z"/>
+  </g>
+
+  <g transform="rotate(-8 200 152)">
+    <g fill="#151515" transform="translate(8 8)">
+      <rect x="56" y="120" width="288" height="64" rx="32"/>
+      <circle cx="90" cy="152" r="32"/>
+      <circle cx="310" cy="152" r="32"/>
+      <rect x="101" y="108" width="198" height="88" rx="16"/>
+    </g>
+
+    <rect x="56" y="120" width="288" height="64" rx="32" fill="#E9E9E9" stroke="#151515" stroke-width="5"/>
+    <circle cx="90" cy="152" r="32" fill="#D6D6D6" stroke="#151515" stroke-width="5"/>
+    <circle cx="310" cy="152" r="32" fill="#D6D6D6" stroke="#151515" stroke-width="5"/>
+    <circle cx="90" cy="152" r="10" fill="#BEBEBE" stroke="#151515" stroke-width="4"/>
+    <circle cx="310" cy="152" r="10" fill="#BEBEBE" stroke="#151515" stroke-width="4"/>
+    <rect x="74" y="130" width="252" height="13" rx="6" fill="#FFFFFF" opacity="0.65"/>
+
+    <rect x="101" y="108" width="198" height="88" rx="16" fill="#1E8A52" stroke="#151515" stroke-width="5"/>
+    <rect x="110" y="117" width="180" height="70" rx="10" fill="#178048"/>
+
+    <g stroke="#C9A227" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M120 132 H176"/>
+      <path d="M120 156 H166"/>
+      <path d="M120 180 H176"/>
+      <path d="M196 132 H282"/>
+      <path d="M246 180 H282"/>
+    </g>
+    <g stroke="#39D353" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M176 132 V156 H166"/>
+      <path d="M176 156 V180"/>
+      <path d="M196 132 V156"/>
+    </g>
+
+    <g fill="#C9A227">
+      <circle cx="176" cy="132" r="4.5"/>
+      <circle cx="176" cy="180" r="4.5"/>
+      <circle cx="120" cy="156" r="4.5"/>
+      <circle cx="282" cy="132" r="4.5"/>
+      <circle cx="282" cy="180" r="4.5"/>
+      <circle cx="196" cy="156" r="4.5"/>
+    </g>
+
+    <rect x="196" y="132" width="46" height="48" rx="5" fill="#151515"/>
+    <g stroke="#F0C948" stroke-width="2.5" stroke-linecap="round">
+      <path d="M205 132 v-7 M215 132 v-7 M225 132 v-7 M235 132 v-7"/>
+      <path d="M205 180 v7 M215 180 v7 M225 180 v7 M235 180 v7"/>
+    </g>
+    <rect x="205" y="142" width="28" height="28" rx="3" fill="#2B2B2B"/>
+    <circle cx="210" cy="147" r="2.5" fill="#F0C948"/>
+
+    <circle cx="282" cy="156" r="8" fill="#F0C948" stroke="#151515" stroke-width="3"/>
+    <circle cx="288" cy="118" r="4" fill="#FFFFFF"/>
+  </g>
+</svg>

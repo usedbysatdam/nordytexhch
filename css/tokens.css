@@ -1,0 +1,68 @@
+/* Nordy Tech — Design tokens (acuan: design.md) */
+:root {
+  --color-bg: #FFF7ED;
+  --color-surface: #FFFCF8;
+  --color-surface-muted: #F1EAE2;
+  --color-ink: #151515;
+  --color-muted: #68645F;
+
+  --color-yellow: #FFD629;
+  --color-pink: #FF5D8F;
+  --color-green: #39D353;
+  --color-teal: #43D0C4;
+  --color-purple: #8A63F6;
+  --color-blue: #3998F4;
+  --color-coral: #FF7569;
+
+  --color-success: #159A70;
+  --color-warning: #E9AD24;
+  --color-danger: #E94B50;
+  --color-focus: #1769D2;
+
+  --border-width: 2px;
+  --border-strong: 3px solid var(--color-ink);
+  --shadow-hard: 5px 5px 0 var(--color-ink);
+  --shadow-hard-sm: 3px 3px 0 var(--color-ink);
+  --shadow-hard-lg: 7px 7px 0 var(--color-ink);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  --font-sans: "Poppins", "Plus Jakarta Sans", Inter, system-ui, -apple-system, sans-serif;
+
+  /* Dark mode variables */
+  --color-bg-dark: #121212;
+  --color-surface-dark: #1e1e1e;
+  --color-surface-muted-dark: #2c2c2c;
+  --color-ink-dark: #e0e0e0;
+  --color-muted-dark: #a0a0a0;
+}
+
+/* Nordy Tech — Dark mode overrides */
+:root[data-theme="dark"] {
+  --color-bg: var(--color-bg-dark);
+  --color-surface: var(--color-surface-dark);
+  --color-surface-muted: var(--color-surface-muted-dark);
+  --color-ink: var(--color-ink-dark);
+  --color-muted: var(--color-muted-dark);
+}
+
+  /* Dark mode variables */
+  --color-bg-dark: #121212;
+  --color-surface-dark: #1e1e1e;
+  --color-surface-muted-dark: #2c2c2c;
+  --color-ink-dark: #e0e0e0;
+  --color-muted-dark: #a0a0a0;
+}
